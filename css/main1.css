@@ -49,25 +49,6 @@ a::before { /*Pseudo-Elemento, elemento vazio criado no Css*, praticamente o qua
     margin-right: 10px;
 }
 
-#button_download {
-    display: inline-block;
-    background-color:#161a1d;
-    color: #FFFFFF;
-    font-family: "Fira Code", sans-serif;
-    margin-right: 30px;
-    height: 50px;
-    width: 100px;
-    position: relative;
-    bottom: 7px;
-    box-shadow: 5px 5px 0px #000;
-    transition: transform 200ms linear; /*cria uma transição de animação quando o mouse passa por cima atravez da transform*/
-}
-
-#button_download:hover {
-    transform: scale(1.09); /* Muda o tamanho do botão quando o mouse passa por cima */
-    
-}
-
 h1{
     font-family: "Fira Code", sans-serif;
     font-size: 40px;
