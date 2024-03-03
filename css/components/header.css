@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    background-color: #3c096c;
+    border-bottom: 10px solid #000;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Logo_header {
+    height: 80px;
+    width: 70px;
+    margin-left: 25px;
+}

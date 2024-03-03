@@ -1,4 +1,4 @@
-#button_download {
+.button_download {
     display: inline-block;
     background-color:#161a1d;
     color: #FFFFFF;
@@ -12,7 +12,7 @@
     transition: transform 200ms linear; /*cria uma transição de animação quando o mouse passa por cima atravez da transform*/
 }
 
-#button_download:hover {
+.button_download:hover {
     transform: scale(1.09); /* Muda o tamanho do botão quando o mouse passa por cima */
     
 }

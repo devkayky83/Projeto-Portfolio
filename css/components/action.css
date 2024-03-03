@@ -1,0 +1,24 @@
+.action {
+    display: inline-flex;
+    color: #e0aaff;
+    font-size: 17px;
+    font-family: "Fira Code", sans-serif; /* Uma segunda familia de font pode ser carregada caso o navegador não tenha a primeira*/
+    font-weight: 500; /* Peso da font */
+    text-decoration: none; /* Tira o traço debaixo de uma font, site para decoration: mdn text decoration*/
+    margin-right: 30px; /*Coloca um espaçamento de 30px entre os links do header*/
+    align-items: center;
+    transition: transform 100ms linear;
+}
+
+.action:hover {
+    color: #FFFFFF;
+    transform: scale(1.09);
+}
+
+.action::before { /*Pseudo-Elemento, elemento vazio criado no Css*, praticamente o quadradinho antes das palavras*/
+    content: ""; /* Obrigatorio no Pseudo-elemento, pois o mesmo necessita de um conteudo*/
+    background-color: #161a1d;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
