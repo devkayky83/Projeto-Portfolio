@@ -1,0 +1,15 @@
+.banner{
+    box-sizing: border-box;
+    background-image: url(../../assets/imgs/Eu-Photoroom.png);
+    height: 800px;
+    width: 1500px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #000;
+    background-size: contain;
+}
+
+.banner .box{
+    margin-top: 115px;
+    margin-left: 90px;
+}
