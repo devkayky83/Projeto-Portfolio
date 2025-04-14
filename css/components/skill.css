@@ -1,0 +1,23 @@
+.skill {
+    display: flex;
+    align-items: center;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+
+.skill .icon {
+    margin-right: 25px;
+    width: 150px;
+}
+
+.skill .title {
+    margin-bottom: 16px;
+}
+
+.skill .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

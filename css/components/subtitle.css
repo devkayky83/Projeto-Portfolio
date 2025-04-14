@@ -3,4 +3,5 @@
     font-size: 40px;
     color: #fff;
     text-shadow: 6px 6px 5px #000;
+    -webkit-text-stroke: 1.5px black;
 }

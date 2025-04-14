@@ -1,0 +1,13 @@
+.main-title {
+    font-family: "Silkscreen", sans-serif;
+    font-size: 55px;
+    color: #3c096c;
+    text-shadow: 6px 6px 5px #000;
+    -webkit-text-stroke: 1px #ebdada;
+}
+
+.main-title.-second{
+    color: #FFFFFF;
+    text-shadow: none;
+    text-align: center;
+}
