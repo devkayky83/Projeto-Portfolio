@@ -11,7 +11,7 @@
     margin-bottom: 40px;
 }
 
-.wrapper-skill .skill-space::nth-child(odd) {
+.wrapper-skill .skill-space:nth-child(odd) {
     margin-right: 100px;
 }
 
