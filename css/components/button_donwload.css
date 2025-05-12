@@ -9,9 +9,9 @@
     position: relative;
     bottom: 7px;
     box-shadow: 5px 5px 0px #000;
-    transition: transform 200ms linear; /*cria uma transição de animação quando o mouse passa por cima atravez da transform*/
+    transition: transform 200ms linear; 
 }
 
 .button_download:hover {
-    transform: scale(1.09); /* Muda o tamanho do botão quando o mouse passa por cima */
+    transform: scale(1.09); 
 }

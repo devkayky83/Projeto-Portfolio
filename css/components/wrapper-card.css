@@ -1,5 +1,10 @@
 .wrapper-card {
     display: flex;
     justify-content: center;
+    transition: transform 200ms linear;
+}
+
+.wrapper-card:hover {
+    transform: scale(1.09);
 }
 
