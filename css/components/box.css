@@ -6,6 +6,6 @@
    padding: 42px 44px;
 }
 
-.box .title { /* Box herda h1, herda seus filhos*/
+.box .title { 
     margin-bottom: 28px;
 }
